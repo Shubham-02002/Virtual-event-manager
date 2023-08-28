@@ -1,8 +1,11 @@
 .App {
   text-align: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #ff8b8f, #cc515f);
+  color: #000;
 }
 
-.App-logo {
+.App-logo { 
   height: 40vmin;
   pointer-events: none;
 }
@@ -14,10 +17,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ff5a5f; /* Boston Pink background color */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -25,7 +29,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ff5a5f; /* Boston Pink link color */
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +39,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: #ff5a5f; /* Boston Pink background color */
+  color: #000; /* Black text color */
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
